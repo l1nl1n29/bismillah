@@ -45,7 +45,7 @@ jwt = JWTManager(app)
 def index():
     #current_user = get_jwt_identity()
     #return jsonify(logged_in_as=current_user), 200
-    return "Sorry, your request is not valid"
+    return "Hello Word this is SEESEA-GLOBALE"
 
 @app.route('/login', methods=['POST'])
 def login():
