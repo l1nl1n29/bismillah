@@ -5,10 +5,10 @@ def init(app):
 
     
     app.config['MYSQL_HOST'] = '35.232.13.66'
-    app.config['MYSQL_UNIX_SOCKET'] = '/mysql/bissmillah-390010:us-central1:mydatabase'
-    app.config['MYSQL_USER'] = 'root'
+    #app.config['MYSQL_UNIX_SOCKET'] = '/mysql/bissmillah-390010:us-central1:mydatabase'
+    app.config['MYSQL_USER'] = 'username'
     app.config['MYSQL_PASSWORD'] = '12345678'
-    app.config['MYSQL_DB'] = 'dbglobale'
+    app.config['MYSQL_DB'] = 'c23-ps067'
     app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
     return MySQL(app)
 
