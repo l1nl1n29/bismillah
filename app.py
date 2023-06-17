@@ -121,6 +121,6 @@ def logout():
     return {"massage": "Logout successful"}, 200
 
 if __name__ == '__main__':
-    serve(app, host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
+    serve(app, host="0.0.0.0", port=int(os.environ.get('PORT', 80)))
     #app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
     #$Env:PORT=4000
